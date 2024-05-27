@@ -30,7 +30,7 @@ A simple yet powerful blog application built with the modern React ecosystem. Th
 
 2. **Clone the repository:**
    ```bash
-   git clone [https://your-repository-url.git](https://github.com/HariKrishna-9885699666/blog-app-react-redux-vite-tailwind/)
+   git clone https://github.com/HariKrishna-9885699666/blog-app-react-redux-vite-tailwind
    cd blog-app-react-redux-vite-tailwind
    npm install
    npm run dev
