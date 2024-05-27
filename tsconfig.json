@@ -18,12 +18,12 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@redux/*": ["src/redux/*"]
+    }
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }],
-  "paths": {
-    "@components/*": ["src/components/*"],
-    "@redux/*": ["src/redux/*"]
-  }
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
