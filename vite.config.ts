@@ -1,4 +1,3 @@
-// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 import path from 'path';
@@ -13,9 +12,11 @@ export default defineConfig({
     },
   },
   build: {
-    // This tells vite to preserve the case of your files
+    outDir: 'dist',
     rollupOptions: {
-      preserveEntrySignatures: 'strict',
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+      },
     },
-  }
+  },
 });
