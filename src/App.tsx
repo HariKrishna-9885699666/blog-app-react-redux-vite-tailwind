@@ -1,7 +1,7 @@
 import React from "react";
-import PostList from "./components/PostList";
-import AddPost from "./components/AddPost";
-import ScrollableIcon from './components/ScrollableIcon';
+import PostList from "@components/PostList";
+import AddPost from "@components/AddPost";
+import ScrollableIcon from '@components/ScrollableIcon';
 
 const App: React.FC = () => {
   return (

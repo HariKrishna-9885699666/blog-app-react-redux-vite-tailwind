@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { RootState, AppDispatch } from "../redux/store";
-import UpdatePost from "./UpdatePost";
-import { deletePost } from "../redux/slices/postSlice";
+import { RootState, AppDispatch } from '@redux/store';
+import UpdatePost from '@components/UpdatePost';
+import { deletePost } from '@redux/slices/postSlice';
 import { formatDistanceToNow } from "date-fns";
 
 const PostList: React.FC = () => {

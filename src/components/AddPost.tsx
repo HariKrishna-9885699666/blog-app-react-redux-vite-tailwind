@@ -1,8 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
-import { addPost } from "../redux/slices/postSlice";
-import { AppDispatch } from "../redux/store";
+import { addPost } from "@redux/slices/postSlice";
+import { AppDispatch } from "@redux/store";
 
 interface PostFormData {
   title: string;
