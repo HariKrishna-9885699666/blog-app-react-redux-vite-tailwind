@@ -1,5 +1,5 @@
-# Blog Post CRUD Operations with React, Vite, Redux, and Tailwind CSS
-Blog Post CRUD Operations with React, Vite, Redux, and Tailwind CSS
+# Blog Post CRUD Operations with React, Vite, Redux, Typescript and Tailwind CSS
+Blog Post CRUD Operations with React, Vite, Redux, Typescript and Tailwind CSS
 
 A simple yet powerful blog application built with the modern React ecosystem. This project allows you to create, read, update, and delete (CRUD) blog posts with a clean and intuitive user interface.
 
