@@ -1,15 +1,21 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+// vite.config.js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
 import path from 'path';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),  // Maps @ to your src directory
+      '@': path.resolve(__dirname, './src'),
       '@components': path.resolve(__dirname, './src/components'),
-      '@redux': path.resolve(__dirname, './src/redux'), // Add more aliases as needed
+      '@redux': path.resolve(__dirname, './src/redux'),
     },
   },
-})
+  build: {
+    // This tells vite to preserve the case of your files
+    rollupOptions: {
+      preserveEntrySignatures: 'strict',
+    },
+  }
+});
