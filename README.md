@@ -3,6 +3,10 @@ Blog Post CRUD Operations with React, Vite, Redux, Typescript and Tailwind CSS
 
 A simple yet powerful blog application built with the modern React ecosystem. This project allows you to create, read, update, and delete (CRUD) blog posts with a clean and intuitive user interface.
 
+## Live Demo
+
+You can check out the live demo of the application here: [Blog Post CRUD Operations](https://blog-app-react-redux-vite-tailwind.netlify.app/)
+
 ## Features
 
 - **CRUD Operations:** Easily add, edit, and delete blog posts.
