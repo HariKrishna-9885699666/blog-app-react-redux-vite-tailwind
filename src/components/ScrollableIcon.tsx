@@ -146,6 +146,14 @@ const ScrollableIcon: React.FC = () => {
                           Github
                         </a>
                       </li>
+                      <li className="w-full px-4 py-2 border-b border-gray-200 underline">
+                        <a
+                          href="https://harikrishna.netlify.app/"
+                          target="_blank"
+                        >
+                          Portfolio
+                        </a>
+                      </li>
                     </ul>
                   </div>
 
